@@ -1,0 +1,68 @@
+body { /* Cor para fundo */
+    background-color: #78c8da;
+}
+
+
+header { /* Cabeçalho ajustado */
+    text-align: center;
+    background-color: white;
+    margin: 10px auto; 
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 660px; 
+    width: 100%; 
+}
+
+
+header h1 { /* fonte para titulo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header p { /* fonte estilo para descrição para cabeçalho */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+img, figcaption, .bibliografia, .contribuicao, footer { /* Centralização de div */
+    width: 100%;
+    max-width: 660px;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+
+figcaption { /* descrição de imagem */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.contribuicao, .bibliografia, footer {
+    background-color: #DCDCDC;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 10px;
+}
+
+ul {
+    margin-left: -30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
